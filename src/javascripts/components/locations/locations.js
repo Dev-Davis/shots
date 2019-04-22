@@ -10,8 +10,8 @@ const domStringBuilder = () => {
   let domString = '';
   locations.forEach((location) => {
     domString += `;<h4>${location.name}</h4>`;
-    util.printToDom('locations', domString);
   });
+  util.printToDom('locations', domString);
   // printToDom('locations', domString);
 };
 
